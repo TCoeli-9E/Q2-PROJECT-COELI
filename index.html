@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen - Home</title>
+    <link rel="stylesheet" href="bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/home.css">
+    <script src="js/default.js"></script>
+    <script type="text/javascript" src="js/jquery-3.6.4.min.js" ></script>
+    <script type="text/javascript" src="js/sliderman.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/sliderman.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" width="50" height="50"/>
+                <h3>FlavorFusionHub.com</h3>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="submit.html">Submit Recipe</a></li>
+                </ul>
+            </nav>
+            <form class="search-form" action="/search" method="get"> <input type="text" name="query" class="search-input" placeholder="Search..."> <button type="submit" class="search-button">Search</button> </form>
+        </div>
+    </header>
+    <div class="main">
+        <div class="container-fluid">
+            <h1 class="page-title">Welcome to Flavor Fusion Hub</h1>
+            <p class="home-description">Discover and share your favorite recipes with our community!</p>
+            <!-- SLIDER -->
+            <div id="slider_container_2">
+                <div id="SliderName_2" class="SliderName_2">
+                    <img src="images/slider/image1.jpg" width="1000" height="450"/>
+                    <img src="images/slider/image2.jpg" width="1000" height="450"/>
+                    <img src="images/slider/image3.jpg" width="1000" height="450"/>
+                </div>
+                <div class="c"></div>
+                <div id="SliderNameNavigation_2"></div>
+                <div class="c"></div>
+                <script type="text/javascript">
+                    effectsDemo2 = 'rain,stairs,fade';
+                    var demoSlider_2 = Sliderman.slider({container: 'SliderName_2', width: 1000, height: 450, effects: effectsDemo2,
+                        display: {
+                            autoplay: 10000,
+                            loading: {
+                                background: '#000000', 
+                                opacity: 0.5, 
+                                image: 'images/slider/loading.gif'
+                            },
+                            buttons: {
+                                hide: true, 
+                                opacity: 1, 
+                                prev: {
+                                    className: 'SliderNamePrev_2', 
+                                    label: ''
+                                }, 
+                                next: {
+                                    className: 'SliderNameNext_2', 
+                                    label: ''
+                                }
+                            },
+                            description: {
+                                hide: true, 
+                                background: '#000000', 
+                                opacity: 0.4, 
+                                height: 50, 
+                            position: 'bottom'
+                            },
+                            navigation: {
+                                container: 'SliderNameNavigation_2', label: '<img src="images/slider/clear.gif" />'
+                            }
+                        }
+                    });
+                </script>
+                <div class="c"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; <a href="https://tcoeli-9e.github.io/Q2-EXERCISE2-Thomas-Coeli//">Thomas Taylor L Coeli | 9-Emerald</a> </p>
+    </footer>
+</body>
+</html>

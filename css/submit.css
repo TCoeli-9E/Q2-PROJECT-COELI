@@ -1,0 +1,36 @@
+body{
+    color: #ffffff;
+}
+
+.submit-recipe-form {
+	padding: 50px 0;
+}
+
+.submit-recipe-form label {
+	display: block;
+}
+
+.submit-recipe-form input {
+	width: -webkit-fill-available;
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.submit-recipe-form textarea {
+	width: -webkit-fill-available;
+    border: none;
+    border-radius: 5px;
+}
+
+.submit-recipe-form .form-group {
+    margin: 20px 0;
+}
+
+.submit-recipe-form button {
+    background: #2196F3;
+    border: 1px solid #0a5897;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 10px;
+}

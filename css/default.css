@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #FF9800;
+    color: #333;
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 11pt;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.container-fluid {
+    margin: auto;
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.logo img, .logo h3 {
+    display: inline;
+    vertical-align: middle;
+}
+
+header .logo, header nav, header .search-form {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .logo {
+    width: 25%;
+}
+
+header nav {
+    width: 40%;
+}
+
+.main {
+    background: url(../images/bg.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    display: flex;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.page-title {
+    color: #FFC107;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.home-description {
+    color: #FFF;
+    text-align: center;
+}
+
+.row {
+    display: inline-flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row .col-4 {
+    width: 30.333333%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+
+.row .col-6 {
+    width: 50%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+
+.search-input {
+    border-radius: 5px;
+    border: 0;
+    height: 25px;
+}
+
+.search-button {
+    background: #FF9800;
+    border: 1px solid #FF5722;
+    color: #333;
+    border-radius: 5px;
+    padding: 6px;
+}
